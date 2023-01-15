@@ -1,7 +1,8 @@
+import ImageAnimated from '../../assets/product.gif';
+import * as Styles from './styles';
+
 export function Card() {
   return (
-    <>
-      <h1>CARD Component</h1>
-    </>
+    <Styles.Image src={ImageAnimated} alt='Product animated' />
   );
 };

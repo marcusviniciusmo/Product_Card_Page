@@ -17,7 +17,14 @@ export function Product() {
             ? <Card />
             : <Styles.Image src={ImageProduct} />
         }
-        <Styles.Vector src={Vector} onClick={toggleShowCard} />
+        {
+          showCard
+            ? <Styles.CloseIcon
+              onClick={toggleShowCard}
+              fontSize='large'
+            />
+            : <Styles.Vector src={Vector} onClick={toggleShowCard} />
+        }
       </Styles.ImageContainer>
 
       <Styles.InfoContainer>

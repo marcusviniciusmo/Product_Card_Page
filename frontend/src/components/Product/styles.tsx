@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Close } from '@mui/icons-material';
 
 export const Container = styled.div`
   border: 0.1rem solid var(--color-primary);
@@ -24,6 +25,15 @@ export const Vector = styled.img`
   position: absolute;
   top: 3.8%;
   left: 81.51%;
+  cursor: pointer;
+`;
+
+export const CloseIcon = styled(Close)`
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 1rem;
+  left: 36.6rem;
   cursor: pointer;
 `;
 
