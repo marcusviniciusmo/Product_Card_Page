@@ -4,9 +4,8 @@ import { Close } from '@mui/icons-material';
 export const Container = styled.div`
   border: 0.1rem solid var(--color-primary);
   border-radius: 1rem;
-  width: 87.5rem;
+  min-width: 87.5rem;
   height: 49.8rem;
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,8 +31,8 @@ export const CloseIcon = styled(Close)`
   width: 1.6rem;
   height: 1.6rem;
   position: absolute;
-  top: 1rem;
-  left: 36.6rem;
+  top: 0.5rem;
+  left: 37rem;
   cursor: pointer;
 `;
 
@@ -94,8 +93,8 @@ export const ProductPrice = styled.span`
 `;
 
 export const Button = styled.button`
-  border-radius: 10rem;
   border: 0.05rem solid var(--color-primary);
+  border-radius: 10rem;
   width: 14.8rem;
   height: 3.2rem;
   padding: 0.8rem 1.6rem;
@@ -105,12 +104,13 @@ export const Button = styled.button`
   justify-content: center;
   gap: 0.8rem;
   box-sizing: border-box;
-
+  
   &:hover {
     background: var(--color-primary);
     color: #FFFFFF;
   }
 `;
+
 
 export const ButtonText = styled.span`
   font-family: 'Lato';
