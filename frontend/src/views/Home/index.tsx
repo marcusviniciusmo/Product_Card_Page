@@ -1,11 +1,19 @@
 import { Product } from "components/Product";
+import { ProductProps } from "types/Product";
+import * as Styles from "./styles";
 
 export function Home() {
-  return (
-    <>
-      <h1>HOME View</h1>
+  const product: ProductProps = {
+    productInfo: {
+      title: 'Sofá Margot II - Rosé',
+      code: '42004',
+      price: '4.000'
+    }
+  };
 
-      <Product />
-    </>
+  return (
+    <Styles.Container>
+      <Product productInfo={product.productInfo} />
+    </Styles.Container>
   );
 };
