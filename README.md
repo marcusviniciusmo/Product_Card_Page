@@ -6,6 +6,8 @@ Front-end Platform hosted: - Netlify
 
 URL: https://product-card-page-bora-codar.netlify.app/
 
+Design: https://www.figma.com/file/QtF8puCTRWvrCa7uxhz5nh/%23boraCodar---Desafio-2-(Community)?node-id=103%3A95&t=zFSCM6bAaSoM2qxx-0
+
 ## Finished: 20/01/2023
 
 ---
